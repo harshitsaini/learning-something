@@ -1,0 +1,460 @@
+21
+
+Body_of_the_mail
+---------------------
+Content-Type: multipart/mixed; boundary="===============0731916686213514151=="
+MIME-Version: 1.0
+From: test@harshitsaini.me
+To: some@harshitsaini.me,harshitsaini15@gmail.com
+Subject: Sending Attachement
+
+--===============0731916686213514151==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+This is a test email to send an attachement.
+
+--===============0731916686213514151==
+Content-Type: text/plain; name="test.txt"
+Content-Description: test.txt
+Content-Disposition: attachment;filename="test.txt";
+    creation-date="Sat, 05 Aug 2017 19:35:36 GMT";
+Content-Transfer-Encoding: base64
+
+U29tZSB0ZXN0IGRhdGEgaW5zaWRlIHRoaXMgdGV4dCBmaWxlLgoKeG94bw==
+--===============0731916686213514151==--
+
+---------------------
+Content-Type: multipart/mixed; boundary="===============0731916686213514151=="
+MIME-Version: 1.0
+From: test@harshitsaini.me
+To: some@harshitsaini.me,harshitsaini15@gmail.com
+Subject: Sending Attachement
+
+--===============0731916686213514151==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+This is a test email to send an attachement.
+
+--===============0731916686213514151==
+Content-Type: text/plain; name="test.txt"
+Content-Description: test.txt
+Content-Disposition: attachment;filename="test.txt";
+    creation-date="Sat, 05 Aug 2017 19:35:36 GMT";
+Content-Transfer-Encoding: base64
+
+U29tZSB0ZXN0IGRhdGEgaW5zaWRlIHRoaXMgdGV4dCBmaWxlLgoKeG94bw==
+--===============0731916686213514151==--
+
+---------------------
+
+Content-Type: multipart/mixed; boundary="===============0731916686213514151=="
+MIME-Version: 1.0
+From: test@harshitsaini.me
+To: harshitsaini15@gmail.com
+Subject: Just testing to send attachments with a mail
+
+--===============0731916686213514151==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+Body_of_the_mail
+--===============0731916686213514151==
+Content-Type: application/octet-stream
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename= test.txt
+
+U29tZSB0ZXN0IGRhdGEgaW5zaWRlIHRoaXMgdGV4dCBmaWxlLgoKeG94bw==
+
+--===============0731916686213514151==--
+
+
+
+---------------------
+Content-Type: multipart/mixed; boundary="===============0731916686213514151=="
+MIME-Version: 1.0
+From: test@harshitsaini.me
+To: some@harshitsaini.me,harshitsaini15@gmail.com
+Subject: Sending Attachement
+
+--===============0731916686213514151==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+This is a test email to send an attachement.
+
+--===============0731916686213514151==
+Content-Type: application/octet-stream
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename=test.txt
+
+U29tZSB0ZXN0IGRhdGEgaW5zaWRlIHRoaXMgdGV4dCBmaWxlLgoKeG94bw==
+--===============0731916686213514151==--
+
+---------------------
+Content-Type: multipart/mixed; boundary="AUNIQUEMARKER"
+MIME-Version: 1.0
+From: test@harshitsaini.me
+To: some@harshitsaini.me,harshitsaini15@gmail.com
+Subject: Sending Attachement
+
+--AUNIQUEMARKER
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+This is a test email to send an attachement.
+
+--AUNIQUEMARKER
+Content-Type: application/octet-stream
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename=test.txt
+
+U29tZSB0ZXN0IGRhdGEgaW5zaWRlIHRoaXMgdGV4dCBmaWxlLgoKeG94bw==
+--AUNIQUEMARKER--
+
+---------------------
+Content-Type: multipart/mixed; boundary="AUNIQUEMARKER"
+MIME-Version: 1.0
+Subject: Sending Attachement
+From: From Person <test@harshitsaini.me>
+To: To Person <some@harshitsaini.me>,<harshitsaini15@gmail.com>
+
+--AUNIQUEMARKER
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+This is a test email to send an attachement.
+
+--AUNIQUEMARKER
+Content-Type: application/octet-stream
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename=test.txt
+
+U29tZSB0ZXN0IGRhdGEgaW5zaWRlIHRoaXMgdGV4dCBmaWxlLgoKeG94bw==
+--AUNIQUEMARKER--
+
+---------------------
+Content-Type: multipart/mixed; boundary="AUNIQUEMARKER"
+MIME-Version: 1.0
+Subject: Sending Attachement
+From: From Person <test@harshitsaini.me>
+To: To Person <some@harshitsaini.me>,<harshitsaini15@gmail.com>
+
+--AUNIQUEMARKER
+
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+This is a test email to send an attachement.
+
+--AUNIQUEMARKER
+
+Content-Type: application/octet-stream
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename=test.txt
+
+U29tZSB0ZXN0IGRhdGEgaW5zaWRlIHRoaXMgdGV4dCBmaWxlLgoKeG94bw==
+--AUNIQUEMARKER--
+
+---------------------
+Content-Type: multipart/mixed; boundary="AUNIQUEMARKER"
+MIME-Version: 1.0
+Subject: Sending Attachement
+From: From Person <test@harshitsaini.me>
+To: To Person <some@harshitsaini.me>,<harshitsaini15@gmail.com>
+
+--AUNIQUEMARKER
+
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+This is a test email to send an attachement.
+
+--AUNIQUEMARKER
+
+Content-Type: application/octet-stream
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename=test.txt
+
+b'U29tZSB0ZXN0IGRhdGEgaW5zaWRlIHRoaXMgdGV4dCBmaWxlLgoKeG94bw=='
+--AUNIQUEMARKER--
+
+---------------------
+Content-Type: multipart/mixed; boundary="AUNIQUEMARKER"
+MIME-Version: 1.0
+Subject: Sending Attachement
+From: From Person <test@harshitsaini.me>
+To: To Person <some@harshitsaini.me>,<harshitsaini15@gmail.com>
+
+--AUNIQUEMARKER
+
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+This is a test email to send an attachement.
+
+--AUNIQUEMARKER
+
+Content-Type: application/octet-stream
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename=test.txt
+
+b'U29tZSB0ZXN0IGRhdGEgaW5zaWRlIHRoaXMgdGV4dCBmaWxlLgoKeG94bw=='
+--AUNIQUEMARKER--
+
+---------------------
+Content-Type: multipart/mixed; boundary="AUNIQUEMARKER"
+MIME-Version: 1.0
+Subject: Sending Attachement
+From: From Person <test@harshitsaini.me>
+To: To Person <some@harshitsaini.me>,<harshitsaini15@gmail.com>
+
+--AUNIQUEMARKER
+
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+
+
+This is a test email to send an attachement.
+
+--AUNIQUEMARKER
+
+Content-Type: application/octet-stream
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename=test.txt
+
+b'U29tZSB0ZXN0IGRhdGEgaW5zaWRlIHRoaXMgdGV4dCBmaWxlLgoKeG94bw=='
+--AUNIQUEMARKER--
+
+---------------------
+Content-Type: multipart/mixed; boundary="AUNIQUEMARKER"
+MIME-Version: 1.0
+Subject: Sending Attachement
+From: From Person <test@harshitsaini.me>
+To: To Person <some@harshitsaini.me>,<harshitsaini15@gmail.com>
+
+--AUNIQUEMARKER
+
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding:8bit
+
+
+This is a test email to send an attachement.
+
+--AUNIQUEMARKER
+
+Content-Type: application/octet-stream
+MIME-Version: 1.0
+Content-Transfer-Encoding:base64
+Content-Disposition: attachment; filename=test.txt
+
+b'U29tZSB0ZXN0IGRhdGEgaW5zaWRlIHRoaXMgdGV4dCBmaWxlLgoKeG94bw=='
+--AUNIQUEMARKER--
+
+---------------------
+Content-Type: multipart/mixed; boundary="AUNIQUEMARKER"
+MIME-Version: 1.0
+Subject: Sending Attachement
+From: From Person <test@harshitsaini.me>
+To: To Person <some@harshitsaini.me>,<harshitsaini15@gmail.com>
+
+--AUNIQUEMARKER
+
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding:8bit
+
+
+This is a test email to send an attachement.
+
+--AUNIQUEMARKER
+
+Content-Type: application/octet-stream
+MIME-Version: 1.0
+Content-Transfer-Encoding:base64
+Content-Disposition: attachment; filename=./test.txt
+
+b'U29tZSB0ZXN0IGRhdGEgaW5zaWRlIHRoaXMgdGV4dCBmaWxlLgoKeG94bw=='
+--AUNIQUEMARKER--
+
+---------------------
+Content-Type: multipart/mixed; boundary="AUNIQUEMARKER"
+MIME-Version: 1.0
+Subject: Sending Attachement
+From: From Person <test@harshitsaini.me>
+To: To Person <some@harshitsaini.me>,<harshitsaini15@gmail.com>
+
+--AUNIQUEMARKER
+
+Content-Type: text/plain
+MIME-Version: 1.0
+Content-Transfer-Encoding:8bit
+
+
+This is a test email to send an attachement.
+
+--AUNIQUEMARKER
+
+Content-Type: multipart/mixed
+MIME-Version: 1.0
+Content-Transfer-Encoding:base64
+Content-Disposition: attachment; filename=./test.txt
+
+b'U29tZSB0ZXN0IGRhdGEgaW5zaWRlIHRoaXMgdGV4dCBmaWxlLgoKeG94bw=='
+--AUNIQUEMARKER--
+
+---------------------
+Content-Type: multipart/mixed; boundary="AUNIQUEMARKER"
+MIME-Version: 1.0
+Subject: Sending Attachement
+From: From Person <test@harshitsaini.me>
+To: To Person <some@harshitsaini.me>,<harshitsaini15@gmail.com>
+
+--AUNIQUEMARKER
+
+Content-Type: text/plain
+Content-Transfer-Encoding:8bit
+
+
+This is a test email to send an attachement.
+
+--AUNIQUEMARKER
+
+Content-Type: multipart/mixed
+Content-Transfer-Encoding:base64
+Content-Disposition: attachment; filename=./test.txt
+
+b'U29tZSB0ZXN0IGRhdGEgaW5zaWRlIHRoaXMgdGV4dCBmaWxlLgoKeG94bw=='
+--AUNIQUEMARKER--
+
+---------------------
+Content-Type: multipart/mixed; boundary="AUNIQUEMARKER"
+MIME-Version: 1.0
+Subject: Sending Attachement
+From: From Person <test@harshitsaini.me>
+To: To Person <some@harshitsaini.me>,<harshitsaini15@gmail.com>
+
+--AUNIQUEMARKER
+
+Content-Type: text/plain
+Content-Transfer-Encoding:8bit
+
+
+This is a test email to send an attachement.
+
+--AUNIQUEMARKER
+
+Content-Type: multipart/mixed; name="./test.txt"
+Content-Transfer-Encoding:base64
+Content-Disposition: attachment; filename=./test.txt
+
+b'U29tZSB0ZXN0IGRhdGEgaW5zaWRlIHRoaXMgdGV4dCBmaWxlLgoKeG94bw=='
+--AUNIQUEMARKER--
+
+---------------------
+Content-Type: multipart/mixed; boundary="AUNIQUEMARKER"
+MIME-Version: 1.0
+Subject: Sending Attachement
+From: From Person <test@harshitsaini.me>
+To: To Person <some@harshitsaini.me>,<harshitsaini15@gmail.com>
+
+--AUNIQUEMARKER
+Content-Type: text/plain
+Content-Transfer-Encoding: 8bit
+
+
+This is a test email to send an attachement.
+
+--AUNIQUEMARKER
+Content-Type: multipart/mixed; name="./test.txt"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename=./test.txt
+
+b'U29tZSB0ZXN0IGRhdGEgaW5zaWRlIHRoaXMgdGV4dCBmaWxlLgoKeG94bw=='
+
+--AUNIQUEMARKER--
+
+---------------------
+Content-Type: multipart/mixed; boundary="AUNIQUEMARKER"
+MIME-Version: 1.0
+From: From Person <test@harshitsaini.me>
+To: To Person <some@harshitsaini.me>,<harshitsaini15@gmail.com>
+Subject: Sending Attachement
+
+--AUNIQUEMARKER
+Content-Type: text/plain
+Content-Transfer-Encoding: 8bit
+
+
+This is a test email to send an attachement.
+
+--AUNIQUEMARKER
+Content-Type: multipart/mixed; name="./test.txt"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename=./test.txt
+
+b'U29tZSB0ZXN0IGRhdGEgaW5zaWRlIHRoaXMgdGV4dCBmaWxlLgoKeG94bw=='
+
+--AUNIQUEMARKER--
+
+---------------------
+From: From Person <test@harshitsaini.me>
+To: To Person <some@harshitsaini.me>,<harshitsaini15@gmail.com>
+Subject: Sending Attachement
+Content-Type: multipart/mixed; boundary="AUNIQUEMARKER"
+MIME-Version: 1.0
+
+--AUNIQUEMARKER
+Content-Type: text/plain
+Content-Transfer-Encoding: 8bit
+
+
+This is a test email to send an attachement.
+
+--AUNIQUEMARKER
+Content-Type: multipart/mixed; name="./test.txt"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename=./test.txt
+
+b'U29tZSB0ZXN0IGRhdGEgaW5zaWRlIHRoaXMgdGV4dCBmaWxlLgoKeG94bw=='
+
+--AUNIQUEMARKER--
+
+---------------------
+
+Some test data inside this text file.
+
+xoxo
+---------------------
+
+This is a test e-mail message.
+
+---------------------

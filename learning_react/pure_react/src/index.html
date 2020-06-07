@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+
+  <body>
+    <div id="root"> React not rendered </div>
+    <script src="https://unpkg.com/react@16.13.1/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16.13.1/umd/react-dom.development.js"></script>
+    <script>
+
+      const Person = props => {
+        return React.createElement(
+          "div",
+          {},
+          [
+            React.createElement("h1", {}, props.name),
+            React.createElement("h2", {}, props.designation)
+          ]
+        );
+      };
+        
+      const App = () => {
+        return React.createElement(
+          "div",
+          {},
+          [
+            React.createElement("h1", {}, "React is rendered !!!"),
+            React.createElement(Person, {name: "Harshit", designation: "sde1"}),
+            React.createElement(Person, {name: "Rahul", designation: "sde2"}),
+            React.createElement(Person, {name: "Uncle", designation: "sde3"})
+          ]
+        );
+      };
+
+      ReactDOM.render(
+        React.createElement(App),
+        document.getElementById('root')
+      );
+
+    </script>
+  </body>
+</html>

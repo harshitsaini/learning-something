@@ -1,0 +1,21 @@
+Content-Type: multipart/mixed; boundary="===============4777634058836500608=="
+MIME-Version: 1.0
+From: harshitsaini15@gmail.com
+To: sainiharshit@rocketmail.com
+Subject: Just testing to send attachments with a mail
+
+--===============4777634058836500608==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+Body_of_the_mail
+--===============4777634058836500608==
+Content-Type: application/octet-stream
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename= test.txt
+
+U29tZSB0ZXN0IGRhdGEgaW5zaWRlIHRoaXMgdGV4dCBmaWxlLgoKeG94bw==
+
+--===============4777634058836500608==--
